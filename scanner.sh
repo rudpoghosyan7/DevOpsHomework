@@ -1,8 +1,6 @@
 read -p "Enter Directory: " PathName
 read -p "Scan subdirectories (y/n): " recursively
 
-echo $PathName
-
 if [ "$recursively" == "y" ]; then 
 
     temp=""
